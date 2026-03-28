@@ -1,0 +1,98 @@
+==================
+Symbols
+==================
+
+foo
+bar/baz
+
+---
+
+(source_file
+  (symbol)
+  (symbol))
+
+==================
+Keywords
+==================
+
+:name
+:ns/key
+::auto
+
+---
+
+(source_file
+  (keyword)
+  (keyword)
+  (keyword))
+
+==================
+Numbers
+==================
+
+42
+-3.14
+1/3
+0xFF
+
+---
+
+(source_file
+  (number)
+  (number)
+  (number)
+  (number))
+
+==================
+Strings
+==================
+
+"hello world"
+"with \"escapes\""
+
+---
+
+(source_file
+  (string)
+  (string))
+
+==================
+Characters
+==================
+
+\a
+\newline
+\u0041
+
+---
+
+(source_file
+  (character)
+  (character)
+  (character))
+
+==================
+Regex
+==================
+
+#"[a-z]+"
+
+---
+
+(source_file
+  (regex))
+
+==================
+Nil and booleans
+==================
+
+nil
+true
+false
+
+---
+
+(source_file
+  (nil)
+  (boolean)
+  (boolean))

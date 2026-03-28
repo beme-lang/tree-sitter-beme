@@ -1,0 +1,35 @@
+{
+  "grammars": [
+    {
+      "name": "beme",
+      "camelCase": "beme",
+      "scope": "source.beme",
+      "file-types": ["beme"],
+      "injection-regex": "^beme$",
+      "highlights": "queries/highlights.scm",
+      "locals": "queries/locals.scm",
+      "tags": "queries/tags.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for the beme language",
+    "authors": [
+      {
+        "name": "beme-lang"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/beme-lang/tree-sitter-beme"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true
+  }
+}

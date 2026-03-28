@@ -1,0 +1,60 @@
+==================
+Vector
+==================
+
+[1 2 3]
+
+---
+
+(source_file
+  (vector
+    (number)
+    (number)
+    (number)))
+
+==================
+Map
+==================
+
+{:a 1 :b 2}
+
+---
+
+(source_file
+  (map
+    (keyword)
+    (number)
+    (keyword)
+    (number)))
+
+==================
+Set
+==================
+
+#{1 2 3}
+
+---
+
+(source_file
+  (set
+    (number)
+    (number)
+    (number)))
+
+==================
+Nested data structures
+==================
+
+{:a [1 2] :b #{3}}
+
+---
+
+(source_file
+  (map
+    (keyword)
+    (vector
+      (number)
+      (number))
+    (keyword)
+    (set
+      (number))))

@@ -1,0 +1,113 @@
+==================
+Simple call
+==================
+
+f(x y)
+
+---
+
+(source_file
+  (call
+    head: (symbol)
+    (symbol)
+    (symbol)))
+
+==================
+Call with spacing
+==================
+
+f (x y)
+
+---
+
+(source_file
+  (call
+    head: (symbol)
+    (symbol)
+    (symbol)))
+
+==================
+Operator call
+==================
+
++(1 2 3)
+
+---
+
+(source_file
+  (call
+    head: (symbol)
+    (number)
+    (number)
+    (number)))
+
+==================
+Keyword call
+==================
+
+:name(person)
+
+---
+
+(source_file
+  (call
+    head: (keyword)
+    (symbol)))
+
+==================
+Nested call
+==================
+
+f(g(x))
+
+---
+
+(source_file
+  (call
+    head: (symbol)
+    (call
+      head: (symbol)
+      (symbol))))
+
+==================
+Call chaining
+==================
+
+f(x)(y)
+
+---
+
+(source_file
+  (call
+    head: (call
+      head: (symbol)
+      (symbol))
+    (symbol)))
+
+==================
+Vector as head
+==================
+
+[x](body)
+
+---
+
+(source_file
+  (call
+    head: (vector
+      (symbol))
+    (symbol)))
+
+==================
+Begin end call
+==================
+
+f begin x y end
+
+---
+
+(source_file
+  (begin_end_call
+    head: (symbol)
+    (symbol)
+    (symbol)))
