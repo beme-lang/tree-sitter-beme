@@ -4,7 +4,7 @@
       "name": "beme",
       "camelCase": "beme",
       "scope": "source.beme",
-      "file-types": ["beme"],
+      "file-types": ["beme", "meme"],
       "injection-regex": "^beme$",
       "highlights": "queries/highlights.scm",
       "locals": "queries/locals.scm",
