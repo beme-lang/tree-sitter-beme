@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/beme-lang/tree-sitter-beme.git"
+    "url": "https://github.com/xpojure-lang/tree-sitter-beme.git"
   },
   "keywords": [
     "tree-sitter",

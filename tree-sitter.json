@@ -17,11 +17,11 @@
     "description": "Tree-sitter grammar for the beme language",
     "authors": [
       {
-        "name": "beme-lang"
+        "name": "xpojure-lang"
       }
     ],
     "links": {
-      "repository": "https://github.com/beme-lang/tree-sitter-beme"
+      "repository": "https://github.com/xpojure-lang/tree-sitter-beme"
     }
   },
   "bindings": {
